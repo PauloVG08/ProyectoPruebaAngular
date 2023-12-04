@@ -1,0 +1,8 @@
+<!-- task-form.component.html -->
+<div class="m-4 mb-4">
+    <div class="input-group">
+        <input type="text" class="form-control" [(ngModel)]="taskName" placeholder="Nueva tarea">
+        <button class="btn btn-primary" (click)="addTask()">Agregar tarea</button>
+    </div>
+    <app-task-list></app-task-list>
+</div>

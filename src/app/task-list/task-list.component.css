@@ -1,0 +1,42 @@
+/* task-list.component.css */
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-item input {
+    margin-right: 10px;
+}
+
+.task-item button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.task-item .btn-danger {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+}
+
+.task-item .btn-danger:hover {
+    background-color: #e60000;
+}
+
+.task-item .btn-primary {
+    background-color: #66a3ff;
+    color: #fff;
+    border: none;
+}
+
+.task-item .btn-primary:hover {
+    background-color: #3385ff;
+}
